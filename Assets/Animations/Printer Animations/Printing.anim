@@ -708,10 +708,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: Printing()
+    functionName: Printing
     data: 
-    objectReferenceParameter: {fileID: 11500000, guid: f793c617e4def6c4fa8ea1600f39edcc,
-      type: 3}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
