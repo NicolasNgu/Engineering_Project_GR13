@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class screenAppear : MonoBehaviour
+public class watchManager : MonoBehaviour
 {
 
     public GameObject screen;
