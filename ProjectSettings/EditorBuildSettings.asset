@@ -12,6 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene Nicolas.unity
     guid: 80d844731f409474a9bd3e6f532e060e
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1538c882951b37e42883f57b302ac783,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 04d66a463dde7994c9b4201955a1953b,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1474312db7d32424a8d6c7cb8f04ea3d,
