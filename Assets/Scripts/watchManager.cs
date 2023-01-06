@@ -7,14 +7,25 @@ public class watchManager : MonoBehaviour
 
     public GameObject screen;
     public GameObject hand; 
+    public GameObject Compass;
+    //public Renderer screenRenderer;
 
-    bool isLit;
+
+    public bool isLit;
     // Start is called before the first frame update
     void Start()
     {
         isLit = false;
+        //screenRenderer.enabled = isLit;
         screen.SetActive(false);
         Debug.Log("start ok");
+    }
+
+    void Update()
+    {
+        //screenRenderer.enabled = isLit;
+
+        screen.SetActive(isLit);
     }
 
     // Update is called once per frame
@@ -24,8 +35,10 @@ public class watchManager : MonoBehaviour
         if(collision.gameObject == hand)
         {
             isLit = !isLit;
-            screen.SetActive(isLit);
+           // screenRenderer.enabled = !screenRenderer.enabled;
             Debug.Log("ecran touché");
         }
     }
+    
+    
 }
