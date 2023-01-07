@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Compass : MonoBehaviour
+/*public class Compass : MonoBehaviour
 {
         public GameObject target;
 
@@ -13,4 +13,16 @@ public class Compass : MonoBehaviour
         transform.rotation = Quaternion.Euler(0,0,angle);
     }
 
+}*/
+
+public class Compass : MonoBehaviour
+{
+    public Transform target; // The object to point towards
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Rotate the arrow towards the target
+        transform.LookAt(target);
+    }
 }
