@@ -1,26 +1,33 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.InputSystem;
 
 public class ActivateTeleportationRay : MonoBehaviour
 {
+    public InputActionProperty leftActivate;
+
+    [Header("Rays")]
     public GameObject leftTeleportation;
-    // public InputActionProperty leftActivate;
-    // public InputActionProperty leftCancel; 
     public GameObject leftRay;
     public GameObject rightRay;
 
+    [Header("Menu UI")]
     public GameObject menu;
 
     void Update()
     {
-        // bool isLeftRayHovering = leftRay.TryGetHitInfo(out Vector3 leftPos, out Vector3 leftNormal, out int leftNumber, out bool leftValid); // return true if we hit something
-        // leftTeleportation.SetActive(!isLeftRayHovering && leftCancel.action.ReadValue<float>() == 0 && leftActivate.action.ReadValue<float>() > 0.1f);
+        // Enable teleportation when menu is not active and left actuvate button is nearly pressed 
+        if (!menu.activeSelf && leftActivate.action.ReadValue<float>() > 0.1f)
+        {
+            leftTeleportation.SetActive(true);
+        }
 
-        // Disable teleportation when menu is enable and vice-versa
-        leftTeleportation.SetActive(!menu.activeSelf);
+        else
+        {
+            leftTeleportation.SetActive(false);
+        }
 
-        // Same for the ray
+        // Same for the rays
         leftRay.SetActive(menu.activeSelf);
+        rightRay.SetActive(menu.activeSelf);
     }
 }

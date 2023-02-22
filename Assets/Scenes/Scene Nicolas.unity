@@ -1686,16 +1686,16 @@ MonoBehaviour:
   m_BlendVisualLinePoints: 1
   m_MaxRaycastDistance: 30
   m_RayOriginTransform: {fileID: 0}
-  m_ReferenceFrame: {fileID: 0}
+  m_ReferenceFrame: {fileID: 1043286420}
   m_Velocity: 16
   m_Acceleration: 9.8
   m_AdditionalGroundHeight: 0.1
   m_AdditionalFlightTime: 0.5
-  m_EndPointDistance: 10
-  m_EndPointHeight: -7
-  m_ControlPointDistance: 3
-  m_ControlPointHeight: 0.3
-  m_SampleFrequency: 20
+  m_EndPointDistance: 20
+  m_EndPointHeight: -11
+  m_ControlPointDistance: 2
+  m_ControlPointHeight: 0.1
+  m_SampleFrequency: 55
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
   m_RaycastMask:
@@ -20153,6 +20153,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftTeleportation: {fileID: 69398926}
+  leftActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: af90c517-ed97-4459-a5a1-dd8a1cfbe0f3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
   leftRay: {fileID: 1970728790}
   rightRay: {fileID: 612261085}
   menu: {fileID: 974543328}
