@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class computerManager : MonoBehaviour
 {
-    bool screenIsLit;
-    bool menuIsLit;
+    public bool screenIsLit;
+    public bool menuIsLit;
     [SerializeField] private GameObject screen;
     [SerializeField] private GameObject menu;
 
