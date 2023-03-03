@@ -22,7 +22,7 @@ public class activateCompass : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        watchScreen.GetComponent<watchManager>().Compass.SetActive(isCompass);
     }
 
     void OnCollisionEnter(Collision collision)

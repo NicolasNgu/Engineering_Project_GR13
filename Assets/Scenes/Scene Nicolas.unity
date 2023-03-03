@@ -20994,7 +20994,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1059906978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21015,8 +21015,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059906977}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.022, y: 0.005, z: 0.324}
+  m_LocalRotation: {x: 0.000000059604645, y: -0.000000071670456, z: 0.000000025638741,
+    w: 1}
+  m_LocalPosition: {x: -0.02200074, y: 0.005000117, z: 0.3240005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40430,7 +40431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hand: {fileID: 1295649595}
-  CompassApp: {fileID: 235747363}
+  CompassApp: {fileID: 1059906977}
   watchScreen: {fileID: 1342356280}
   isCompass: 0
 --- !u!65 &2050463284
