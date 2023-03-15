@@ -9,6 +9,11 @@ public class LockZRotation : MonoBehaviour
         startingZRotation = transform.eulerAngles.z;
     }
 
+    void Start()
+    {
+        gameObject.SetActive(false);
+    }
+
     private void LateUpdate()
     {
         Vector3 newRotation = transform.eulerAngles;
