@@ -5,14 +5,14 @@ public class VideoController : MonoBehaviour
 {
     private VideoPlayer videoPlayer;
 
-    // private void Start()
-    // {
-    //     videoPlayer = GetComponent<VideoPlayer>();
-    //     videoPlayer.loopPointReached += OnVideoFinished;
-    // }
+    private void Start()
+    {
+        videoPlayer = GetComponent<VideoPlayer>();
+        SelectVideoClip();
+    }
 
-    // private void OnVideoFinished(VideoPlayer player)
-    // {
-    //     player.SetDirectAudioVolume(0, 0f);
-    // }
+    public void SelectVideoClip()
+    {
+        videoPlayer.clip = Resources.Load<VideoClip>("Videos/game_over_" + GameManagerBis.Instance.numGameOver);
+    }
 }
