@@ -3187,7 +3187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 742a71b12fda5224cb3f2621ef3c56ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1043286412}
+  player: {fileID: 1043286420}
   computer: {fileID: 595050593}
 --- !u!65 &211157381
 BoxCollider:
@@ -7230,7 +7230,7 @@ GameObject:
   - component: {fileID: 479092197}
   - component: {fileID: 479092196}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17253,9 +17253,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c5c75b75e3e8847b4a2b03b6a2cbd2, type: 3}
---- !u!1 &1043286412 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5942385012370802899, guid: f3e940e2404eabb44a41fefe7795539e,
+--- !u!143 &1043286420 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 5942385012370802896, guid: f3e940e2404eabb44a41fefe7795539e,
     type: 3}
   m_PrefabInstance: {fileID: 5942385013274755423}
   m_PrefabAsset: {fileID: 0}
