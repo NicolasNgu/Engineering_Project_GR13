@@ -27,7 +27,7 @@ public class ActivateTeleportationRay : MonoBehaviour
         }
 
         // Same for the rays
-        leftRay.SetActive(menu.activeSelf);
-        rightRay.SetActive(menu.activeSelf);
+        /*leftRay.SetActive(menu.activeSelf);
+        rightRay.SetActive(menu.activeSelf);*/
     }
 }
