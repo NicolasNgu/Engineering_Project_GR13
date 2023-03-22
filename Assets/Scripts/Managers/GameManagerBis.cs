@@ -10,4 +10,5 @@ public class GameManagerBis : Singleton<GameManagerBis>
 
         return textAsset.text;
     }
+    
 }
