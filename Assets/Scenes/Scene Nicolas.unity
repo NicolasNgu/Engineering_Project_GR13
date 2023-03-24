@@ -1799,6 +1799,7 @@ GameObject:
   - component: {fileID: 99246497}
   - component: {fileID: 99246496}
   - component: {fileID: 99246498}
+  - component: {fileID: 99246499}
   m_Layer: 5
   m_Name: FakePjXero
   m_TagString: Untagged
@@ -1881,6 +1882,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &99246499
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99246493}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &99700833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2707,6 +2734,7 @@ GameObject:
   - component: {fileID: 168940545}
   - component: {fileID: 168940544}
   - component: {fileID: 168940546}
+  - component: {fileID: 168940547}
   m_Layer: 5
   m_Name: TrueAmazonLink
   m_TagString: Untagged
@@ -2789,6 +2817,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &168940547
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168940541}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &173156897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 197918, guid: 9e2719978c5e26244bfa4e90c8d68b1e,
@@ -15482,6 +15536,7 @@ GameObject:
   - component: {fileID: 910363378}
   - component: {fileID: 910363377}
   - component: {fileID: 910363376}
+  - component: {fileID: 910363379}
   m_Layer: 5
   m_Name: Scroll View2
   m_TagString: Untagged
@@ -15580,6 +15635,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910363374}
   m_CullTransparentMesh: 1
+--- !u!114 &910363379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910363374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a79b640077fc54f902af6977c34a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: {fileID: 514399903}
+  _truePass: {fileID: 1169615349}
+  _trueLink: {fileID: 168940541}
+  _truePj: {fileID: 1435712522}
+  _fakeMailPass1: {fileID: 1989368616}
+  _fakeMailPass2: {fileID: 1768162715}
+  _fakeMailPj1: {fileID: 1230339654}
+  _fakeMailPj2: {fileID: 99246493}
+  _fakeMailLink1: {fileID: 1070886261}
+  _fakeMailLink2: {fileID: 996073432}
+  listeTrueMails: []
+  listeFakePassMails: []
+  listeFakeLinkMails: []
+  listeFakePjMails: []
 --- !u!1 &913340368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 189238, guid: 60f4e128a89ee4a4f819677a974d462c,
@@ -16836,6 +16917,7 @@ GameObject:
   - component: {fileID: 996073436}
   - component: {fileID: 996073435}
   - component: {fileID: 996073437}
+  - component: {fileID: 996073438}
   m_Layer: 5
   m_Name: FakePatrickLink
   m_TagString: Untagged
@@ -16918,6 +17000,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &996073438
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996073432}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &998497214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18190,6 +18298,7 @@ GameObject:
   - component: {fileID: 1070886265}
   - component: {fileID: 1070886264}
   - component: {fileID: 1070886266}
+  - component: {fileID: 1070886267}
   m_Layer: 5
   m_Name: FakeEbayLink
   m_TagString: Untagged
@@ -18272,6 +18381,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &1070886267
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070886261}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1074502268 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 188608, guid: 540e5fc26c9ceda469b8847654a6ca02,
@@ -19726,6 +19861,7 @@ GameObject:
   - component: {fileID: 1169615353}
   - component: {fileID: 1169615352}
   - component: {fileID: 1169615354}
+  - component: {fileID: 1169615355}
   m_Layer: 5
   m_Name: TruePaypalPass
   m_TagString: Untagged
@@ -19808,6 +19944,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &1169615355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169615349}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1169663936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21517,6 +21679,7 @@ GameObject:
   - component: {fileID: 1230339658}
   - component: {fileID: 1230339657}
   - component: {fileID: 1230339659}
+  - component: {fileID: 1230339660}
   m_Layer: 5
   m_Name: FakePjApple
   m_TagString: Untagged
@@ -21599,6 +21762,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &1230339660
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230339654}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1231035045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25348,6 +25537,7 @@ GameObject:
   - component: {fileID: 1435712526}
   - component: {fileID: 1435712525}
   - component: {fileID: 1435712527}
+  - component: {fileID: 1435712528}
   m_Layer: 5
   m_Name: TrueRHPj
   m_TagString: Untagged
@@ -25430,6 +25620,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &1435712528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435712522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1436216569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31943,6 +32159,7 @@ GameObject:
   - component: {fileID: 1768162719}
   - component: {fileID: 1768162718}
   - component: {fileID: 1768162720}
+  - component: {fileID: 1768162721}
   m_Layer: 5
   m_Name: FakeNetflixPass
   m_TagString: Untagged
@@ -32025,6 +32242,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &1768162721
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768162715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1771412727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35324,6 +35567,7 @@ GameObject:
   - component: {fileID: 1989368619}
   - component: {fileID: 1989368618}
   - component: {fileID: 1989368620}
+  - component: {fileID: 1989368621}
   m_Layer: 5
   m_Name: facebookPass
   m_TagString: Untagged
@@ -35406,6 +35650,32 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!61 &1989368621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989368616}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1990232597
 PrefabInstance:
   m_ObjectHideFlags: 0
