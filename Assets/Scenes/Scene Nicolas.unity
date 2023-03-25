@@ -1953,14 +1953,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992328044}
-        m_TargetAssemblyTypeName: gameOver3, Assembly-CSharp
-        m_MethodName: initiateGameOver3
-        m_Mode: 1
+      - m_Target: {fileID: 918167228}
+        m_TargetAssemblyTypeName: GameManagerBis, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10781,13 +10781,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651337582}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 918167230}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &652466895
 PrefabInstance:
@@ -15927,12 +15927,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918167227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4192147, y: 2.2939916, z: 2.5195804}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 651337585}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &918270451 stripped
 GameObject:
@@ -16930,51 +16931,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 66987877b66a4b14e8830bdfab78f8b1, type: 3}
---- !u!1 &992328043
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 992328045}
-  - component: {fileID: 992328044}
-  m_Layer: 0
-  m_Name: gameOver3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &992328044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992328043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fcd3fa2bb6e2f540a45d105e763ab2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usbKey: {fileID: 0}
---- !u!4 &992328045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992328043}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8837426, y: 1.362155, z: 6.724631}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &992682611 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 177450, guid: b2d95bb4b2a95bb42a3e7ac3f0b627ba,
@@ -17218,14 +17174,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992328044}
-        m_TargetAssemblyTypeName: gameOver3, Assembly-CSharp
-        m_MethodName: initiateGameOver3
-        m_Mode: 1
+      - m_Target: {fileID: 918167228}
+        m_TargetAssemblyTypeName: GameManagerBis, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -18656,14 +18612,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992328044}
-        m_TargetAssemblyTypeName: gameOver3, Assembly-CSharp
-        m_MethodName: initiateGameOver3
-        m_Mode: 1
+      - m_Target: {fileID: 918167228}
+        m_TargetAssemblyTypeName: GameManagerBis, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -22139,14 +22095,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992328044}
-        m_TargetAssemblyTypeName: gameOver3, Assembly-CSharp
-        m_MethodName: initiateGameOver3
-        m_Mode: 1
+      - m_Target: {fileID: 918167228}
+        m_TargetAssemblyTypeName: GameManagerBis, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -32721,14 +32677,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992328044}
-        m_TargetAssemblyTypeName: gameOver3, Assembly-CSharp
-        m_MethodName: initiateGameOver3
-        m_Mode: 1
+      - m_Target: {fileID: 918167228}
+        m_TargetAssemblyTypeName: GameManagerBis, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -36035,7 +35991,7 @@ GameObject:
   - component: {fileID: 1989368621}
   - component: {fileID: 1989368622}
   m_Layer: 5
-  m_Name: facebookPass
+  m_Name: FakefacebookPass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36186,14 +36142,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 992328044}
-        m_TargetAssemblyTypeName: gameOver3, Assembly-CSharp
-        m_MethodName: initiateGameOver3
-        m_Mode: 1
+      - m_Target: {fileID: 918167228}
+        m_TargetAssemblyTypeName: GameManagerBis, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

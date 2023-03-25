@@ -1,18 +1,16 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 using Random = System.Random;
+
 public class spawnMails : MonoBehaviour
 {
-    //true mails
-
+    // True mails
     [SerializeField] private GameObject content;
     [SerializeField] private GameObject _truePass;
     [SerializeField] private GameObject _trueLink;
     [SerializeField] private GameObject _truePj;
 
-    //fake mails
+    // Fake mails
     [SerializeField] private GameObject _fakeMailPass1;
     [SerializeField] private GameObject _fakeMailPass2;
     [SerializeField] private GameObject _fakeMailPj1;
@@ -20,16 +18,14 @@ public class spawnMails : MonoBehaviour
     [SerializeField] private GameObject _fakeMailLink1;
     [SerializeField] private GameObject _fakeMailLink2;
 
+    // Lists of mails
     [SerializeField] List<GameObject> listeTrueMails = new List<GameObject>(); // list of true mails
     [SerializeField] List<GameObject> listeFakePassMails = new List<GameObject>(); // list of fake pass mails
     [SerializeField] List<GameObject> listeFakeLinkMails = new List<GameObject>(); // list of fake link mails
     [SerializeField] List<GameObject> listeFakePjMails = new List<GameObject>(); // list of fake pj mails
-    // Start is called before the first frame update
+
     void Start()
     {
-
-        
-
         _truePass.SetActive(false);
         _trueLink.SetActive(false);
         _truePj.SetActive(false);
@@ -54,15 +50,8 @@ public class spawnMails : MonoBehaviour
         ShuffleMails(listeTrueMails, listeFakeLinkMails, listeFakePassMails, listeFakePjMails);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void ShuffleMails(List<GameObject> listeTrueMails, List<GameObject> listeFakeLinkMails, List<GameObject> listeFakePassMails, List<GameObject> listeFakePjMails)
     {
-
         int randomTrue; //random number between 0 and 2 that will randomly choose the good mail
         int randomFake1; //random number between 0 and 2 that will randomly choose the scam mail
         int randomFake2;
@@ -78,9 +67,9 @@ public class spawnMails : MonoBehaviour
 
         Random random = new Random();
         randomTrue = random.Next(0, 3);
-        
-        randomFake1 = random.Next(0,2);
-        randomFake2 = random.Next(0,2);
+
+        randomFake1 = random.Next(0, 2);
+        randomFake2 = random.Next(0, 2);
 
         randomFakeList1 = random.Next(0, 3); // Generates a random index between 0 and 2
         do
@@ -95,11 +84,5 @@ public class spawnMails : MonoBehaviour
 
         listFakeMails[randomFakeList1][randomFake1].SetActive(true);
         listFakeMails[randomFakeList2][randomFake2].SetActive(true);
-
-        
-       
-
-
-
     }
 }
