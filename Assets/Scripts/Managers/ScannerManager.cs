@@ -16,9 +16,9 @@ public class ScannerManager : MonoBehaviour
         {
             switch (other.gameObject.name)
             {
-                case "Code 1":
-                    code1.gameObject.SetActive(true);
-                    break;
+                // case "Code 1":
+                //     code1.gameObject.SetActive(true);
+                //     break;
                 case "Code 2": // END DEMO
                     code2.gameObject.SetActive(true);
 
@@ -30,7 +30,7 @@ public class ScannerManager : MonoBehaviour
                     break;
                 case "Code 3":
                     code3.gameObject.SetActive(true);
-                    
+
                     if (GameManagerBis.Instance.isDemo)
                     {
                         GameManagerBis.Instance.OpenExitDoor();
