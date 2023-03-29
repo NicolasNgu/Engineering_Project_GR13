@@ -3,7 +3,11 @@ using TMPro;
 
 public class SendToIT : MonoBehaviour
 {
+    [Header("Codes")]
     public TMP_Text code1;
+
+    [Header("Instructions")]
+    public GameObject instruction3;
 
     private Animator animator;
 
@@ -20,5 +24,10 @@ public class SendToIT : MonoBehaviour
             Destroy(other.gameObject);
             animator.SetTrigger("Send");
         }
+    }
+
+    private void PrintMailsInstructions()
+    {
+        instruction3.SetActive(true);
     }
 }

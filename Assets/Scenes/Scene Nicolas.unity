@@ -18793,9 +18793,7 @@ MonoBehaviour:
   numGameOver: 0
   authorizeExit: 0
   exitDoorAnimation: {fileID: 1651458867}
-  finalCode: {fileID: 1365687979}
   isDemo: 1
-  finalDemoCode: {fileID: 13061827}
 --- !u!114 &918167229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18991,6 +18989,109 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 187572, guid: 94f4620a533a8bc4cbd53f07b8a1e05e,
     type: 3}
   m_PrefabInstance: {fileID: 1387739743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &926305607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 31431143}
+    m_Modifications:
+    - target: {fileID: 3533955622949486625, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_text
+      value: "Tu as fait le bon choix en confiant \nla cl\xE9 USB aux personnes\ncomp\xE9tentes.\n\nOn
+        te donne le premier code.\n\nTu as vu le scanner \xE0 c\xF4t\xE9 \nde la
+        bo\xEEte ?\n\nTu pourras y d\xE9poser les feuilles qui \ncontiennent les
+        autres codes.\n\nMaintenant, va v\xE9rifier tes mails !\n\nPS : Ne clique
+        pas sur n'importe quoi...\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788663617651053046, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_text
+      value: "Tu as fait le bon choix en confiant \nla cl\xE9 USB aux personnes\ncomp\xE9tentes.\n\nOn
+        te donne le premier code.\n\nTu as vu le scanner \xE0 c\xF4t\xE9 \nde la
+        bo\xEEte ?\n\nTu pourras y d\xE9poser les feuilles qui \ncontiennent les
+        autres codes.\n\nMaintenant, va v\xE9rifier tes mails !\n\nPS : Ne clique
+        pas sur n'importe quoi...\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788663618520752759, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: _sonImprimante
+      value: 
+      objectReference: {fileID: 283584368}
+    - target: {fileID: 6434979649052787311, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_Name
+      value: Instruction 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434979649052787311, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8025364125739108112, guid: b75ef715e690dfa48934f9847b3e7d6f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b75ef715e690dfa48934f9847b3e7d6f, type: 3}
+--- !u!1 &926305608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6434979649052787311, guid: b75ef715e690dfa48934f9847b3e7d6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 926305607}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &927202301
 PrefabInstance:
@@ -25461,7 +25562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Votre montre est tactile.\nTouchez-l\xE0 avec l'index droit\n pour active
+  m_text: "Votre montre est tactile.\nTouchez-l\xE0 avec l'index droit\npour activer
     le menu.\n\nTouchez la boussole afin qu'elle \npuisse vous guider."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30061,6 +30162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   code1: {fileID: 1456045312}
+  instruction3: {fileID: 926305608}
 --- !u!65 &1429386187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31275,7 +31377,7 @@ GameObject:
   - component: {fileID: 1481373318}
   m_Layer: 0
   m_Name: Code 3
-  m_TagString: Undefined
+  m_TagString: Code
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31295,7 +31397,7 @@ Transform:
   - {fileID: 902913892}
   - {fileID: 1522253483}
   m_Father: {fileID: 31431143}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483416536 stripped
 GameObject:
@@ -35687,7 +35789,7 @@ Animator:
   m_GameObject: {fileID: 1464305562}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 34ebfe69495d58c499f90a562bc52699, type: 2}
+  m_Controller: {fileID: 9100000, guid: d2cbfc06493987d42af04922eb19ef07, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -46090,7 +46192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Votre montre est tactile.\nTouchez-l\xE0 avec l'index droit\n pour active
+  m_text: "Votre montre est tactile.\nTouchez-l\xE0 avec l'index droit\npour activer
     le menu.\n\nTouchez la boussole afin qu'elle \npuisse vous guider."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -47352,7 +47454,7 @@ Transform:
   - {fileID: 1364896081510391564}
   - {fileID: 1688354357802716891}
   m_Father: {fileID: 31431143}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5579538947161559099
 PrefabInstance:
