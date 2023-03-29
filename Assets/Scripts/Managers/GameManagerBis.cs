@@ -8,8 +8,12 @@ public class GameManagerBis : Singleton<GameManagerBis>
     [Header("Exit Door")]
     public Animator exitDoorAnimation;
 
+    [Header("Codes")]
+    public GameObject finalCode;
+
     [Header("DEMO")]
     public bool isDemo;
+    public GameObject finalDemoCode;
     
     public void GameOver(int number)
     {
@@ -20,7 +24,7 @@ public class GameManagerBis : Singleton<GameManagerBis>
 
     public void OpenExitDoor()
     {
-        exitDoorAnimation.SetTrigger("Open Exit Door");
+        exitDoorAnimation.SetTrigger("Open Door");
         authorizeExit = true;
     }
 }
