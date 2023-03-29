@@ -22,14 +22,20 @@ public class ScannerManager : MonoBehaviour
                 case "Code 2": // END DEMO
                     code2.gameObject.SetActive(true);
 
+                    // if (GameManagerBis.Instance.isDemo)
+                    // {
+                    //     GameManagerBis.Instance.OpenExitDoor();
+                    // }
+
+                    break;
+                case "Code 3":
+                    code3.gameObject.SetActive(true);
+                    
                     if (GameManagerBis.Instance.isDemo)
                     {
                         GameManagerBis.Instance.OpenExitDoor();
                     }
 
-                    break;
-                case "Code 3":
-                    code3.gameObject.SetActive(true);
                     break;
                 case "Code 4":
                     code4.gameObject.SetActive(true);
