@@ -7,6 +7,7 @@ public class GameManagerBis : Singleton<GameManagerBis>
 
     [Header("Exit Door")]
     public Animator exitDoorAnimation;
+    public AudioSource audioSourceExitDoor;
 
     [Header("DEMO")]
     public bool isDemo;
@@ -21,6 +22,7 @@ public class GameManagerBis : Singleton<GameManagerBis>
     public void OpenExitDoor()
     {
         exitDoorAnimation.SetTrigger("Open Exit Door");
+        audioSourceExitDoor.Play();
         authorizeExit = true;
     }
 }
