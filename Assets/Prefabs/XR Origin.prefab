@@ -1473,7 +1473,7 @@ MonoBehaviour:
   DontDestroy: 0
   screen: {fileID: 5942385012429673116}
   hand: {fileID: 5942385012151339620}
-  Compass: {fileID: 0}
+  Compass: {fileID: 100000, guid: cff4c024d20095a458a66e6e0d47bf1b, type: 3}
   isLit: 0
 --- !u!65 &5942385011932691045
 BoxCollider:

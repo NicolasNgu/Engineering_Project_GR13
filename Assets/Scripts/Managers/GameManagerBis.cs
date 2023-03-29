@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class GameManagerBis : Singleton<GameManagerBis>
 {
-    [HideInInspector] 
-    public int numGameOver;
+    [HideInInspector] public int numGameOver;
+    [HideInInspector] public bool authorizeExit = false;
+
+    [Header("Exit Door")]
+    public Animator exitDoorAnimation;
 
     [Header("Codes")]
-    public GameObject[] codes;
+    public GameObject finalCode;
 
     [Header("DEMO")]
     public bool isDemo;
-    public GameObject[] codesForDemo; 
+    public GameObject finalDemoCode;
     
     public void GameOver(int number)
     {
@@ -19,21 +22,9 @@ public class GameManagerBis : Singleton<GameManagerBis>
         SceneManagerBis.Instance.ChangeScene("Game Over");
     }
 
-    public void GGEZ()
+    public void OpenExitDoor()
     {
-        bool openTheDoor = true;
-        
-        foreach (var code in codes)
-        {
-            if (code.activeSelf == false)
-            {
-                openTheDoor = false;
-            }
-        }
-
-        if (openTheDoor)
-        {
-            
-        }
+        exitDoorAnimation.SetTrigger("Open Door");
+        authorizeExit = true;
     }
 }
