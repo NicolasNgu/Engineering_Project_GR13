@@ -6,6 +6,7 @@ public class PrintCode3 : MonoBehaviour
 {
     [SerializeField] private GameObject code3;
     [SerializeField] private GameObject imprimante;
+    [SerializeField] private GameObject smsLim;
     [SerializeField] private Compass compass;
     [SerializeField] private GameObject bouton;
     [SerializeField] private GameObject bouton1;
@@ -26,6 +27,7 @@ public class PrintCode3 : MonoBehaviour
         bouton4.SetActive(false);
         bouton5.SetActive(false);
         bravo.SetActive(true);
+        smsLim.SetActive(true);
 
 
     }
