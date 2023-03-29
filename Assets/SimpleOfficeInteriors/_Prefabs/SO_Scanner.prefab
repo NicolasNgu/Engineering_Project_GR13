@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 470272}
   - component: {fileID: 3381526}
   - component: {fileID: 2390758}
+  - component: {fileID: 693176432}
+  - component: {fileID: 693176431}
   m_Layer: 0
   m_Name: SO_Scanner
   m_TagString: Untagged
@@ -83,3 +85,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &693176432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6374727, y: 1.071268, z: 0.73206156}
+  m_Center: {x: 0.0000009834766, y: 0.535634, z: -0.0000009536745}
+--- !u!114 &693176431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70b66112c0b63b4580bd42d905ddf01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code1: {fileID: 0}
+  code2: {fileID: 0}
+  code3: {fileID: 0}
+  code4: {fileID: 0}
+  code5: {fileID: 0}
