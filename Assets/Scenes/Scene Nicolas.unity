@@ -48245,6 +48245,11 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 800916296}
+    - target: {fileID: 5942385012925559973, guid: f3e940e2404eabb44a41fefe7795539e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5942385012972375683, guid: f3e940e2404eabb44a41fefe7795539e,
         type: 3}
       propertyPath: m_AnchorMax.y
