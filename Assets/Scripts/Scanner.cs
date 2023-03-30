@@ -12,6 +12,7 @@ public class Scanner : MonoBehaviour
 
     [Header("Door")]
     public GameObject exitDoor;
+    public GameObject particles;
 
     void OnTriggerEnter(Collider other)
     {
@@ -58,5 +59,6 @@ public class Scanner : MonoBehaviour
         exitDoor.GetComponent<Animator>().SetTrigger("Open Exit Door");
         exitDoor.GetComponent<AudioSource>().Play();
         GameManagerBis.Instance.authorizeExit = true;
+        particles.SetActive(true);
     }
 }
