@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class ScannerManager : MonoBehaviour
+public class Scanner : MonoBehaviour
 {
     [Header("Codes in Screen")]
     public TMP_Text code1;
@@ -9,6 +9,9 @@ public class ScannerManager : MonoBehaviour
     public TMP_Text code3;
     public TMP_Text code4;
     public TMP_Text code5;
+
+    [Header("Door")]
+    public GameObject exitDoor;
 
     void OnTriggerEnter(Collider other)
     {
@@ -33,7 +36,7 @@ public class ScannerManager : MonoBehaviour
 
                     if (GameManagerBis.Instance.isDemo)
                     {
-                        GameManagerBis.Instance.OpenExitDoor();
+                        OpenExitDoor();
                     }
 
                     break;
@@ -42,11 +45,18 @@ public class ScannerManager : MonoBehaviour
                     break;
                 case "Code 5": // END GAME
                     code5.gameObject.SetActive(true);
-                    GameManagerBis.Instance.OpenExitDoor();
+                    OpenExitDoor();
                     break;
             }
 
             Destroy(other.gameObject);
         }
+    }
+
+    public void OpenExitDoor()
+    {
+        exitDoor.GetComponent<Animator>().SetTrigger("Open Exit Door");
+        exitDoor.GetComponent<AudioSource>().Play();
+        GameManagerBis.Instance.authorizeExit = true;
     }
 }

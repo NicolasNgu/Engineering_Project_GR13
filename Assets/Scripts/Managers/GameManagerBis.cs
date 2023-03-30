@@ -5,10 +5,6 @@ public class GameManagerBis : Singleton<GameManagerBis>
     [HideInInspector] public int numGameOver;
     [HideInInspector] public bool authorizeExit = false;
 
-    [Header("Exit Door")]
-    public Animator exitDoorAnimation;
-    public AudioSource audioSourceExitDoor;
-
     [Header("DEMO")]
     public bool isDemo;
     
@@ -17,12 +13,5 @@ public class GameManagerBis : Singleton<GameManagerBis>
         GameManagerBis.Instance.numGameOver = number;
         AudioManager.Instance.PlayBackgroundMusic(false);
         SceneManagerBis.Instance.ChangeScene("Game Over");
-    }
-
-    public void OpenExitDoor()
-    {
-        exitDoorAnimation.SetTrigger("Open Exit Door");
-        audioSourceExitDoor.Play();
-        authorizeExit = true;
     }
 }
