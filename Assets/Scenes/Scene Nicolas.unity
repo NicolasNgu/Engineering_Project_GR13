@@ -47157,7 +47157,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Bien !\n\nTu as pris le temps d'analyser les\nmails correctement et tu
-    ne t'es \npas fait pi\xE9ger. \n\nVoici le code 2 : \n\n\"BER\"\n\nPS : N'oublie
+    ne t'es \npas fait pi\xE9ger. \n\nVoici le code 2 : \n\n\"ER\"\n\nPS : N'oublie
     pas de cliquer \nsur le nouveau mail concernant \nles mots de passe"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -47288,7 +47288,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Bien !\n\nTu as pris le temps d'analyser les\nmails correctement et tu
-    ne t'es \npas fait pi\xE9ger. \n\nVoici le code 2 : \n\n\"BER\"\n\nPS : N'oublie
+    ne t'es \npas fait pi\xE9ger. \n\nVoici le code 2 : \n\n\"ER\"\n\nPS : N'oublie
     pas de cliquer \nsur le nouveau mail concernant \nles mots de passe"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
