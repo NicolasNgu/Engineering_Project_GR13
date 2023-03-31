@@ -6,7 +6,7 @@ public class EndGame : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && GameManagerBis.Instance.authorizeExit)
         {
-            Debug.Log("END GAME");
+            SceneManagerBis.Instance.ChangeScene("win");
         }
     }
 }
