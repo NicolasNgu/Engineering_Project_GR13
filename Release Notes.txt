@@ -1,0 +1,32 @@
+Le Hackeur de Paris Version 0.8.4
+
+Cette version contient les fonctionnalités suivantes : 
+
+-Navigation du joueur dans l'environnement
+-Téléportation
+-Interactions avec UI
+-Saisie et manipulation des objets 
+
+Bugs corrigés : 
+-rayons laser sortant des mains lorsqu'ils ne pointent pas de l'UI 
+-Ecran de game over qui ne s'affiche pas 
+-Erreurs liées au grab des objets qui avaient une mauvaise position dans la main
+-Scénario qui ne se déclenche pas comme prévu
+-Code 3 qui ne s'affichait pas réparé
+
+Problèmes connus : 
+-Aucun, juste des fonctionnalités pas encore mises en place comme le "faux web"
+
+Exigences système : 
+-Bonne carte graphique comme une RTX 3060 de préférence et un bon casque de 
+réalité virtuelle comme le Meta Quest 2
+
+Crédits : 
+
+-NicolasNgu
+-BriBriBru
+-rass2000
+-Tipiaf
+-ilias.berramdane@efrei.net
+-RomainLeveille
+
